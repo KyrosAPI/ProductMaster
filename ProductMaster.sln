@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{526636AD-C1CC-4968-96E2-A4B4B0845899}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProcess", "DataProcess", "{9D3AE78F-04BA-424D-8E32-01175240ED9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessProcess", "BusinessProcess", "{572A0B46-8EDB-4DE2-8DC4-63E41FF01DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{7038C663-F8A7-4F47-B1D9-56F9907C3118}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{44FB4F4C-17D4-408D-9CF9-B4A0C37CF14A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessModel", "BusinessModel", "{201E4749-CF2C-473D-B169-B3EE5B89FFEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{AF661CF7-82E6-417A-9C0D-3ED7B27F2137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.DataAccess", "DataAccess\Kyros.ProductMaster.DataAccess\Kyros.ProductMaster.DataAccess.csproj", "{4DC220AC-974A-4A59-9829-CBD3B4B12C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.DataProcess", "DataProcess\Kyros.ProductMaster.DataProcess\Kyros.ProductMaster.DataProcess.csproj", "{A3A80809-83F1-403E-843A-3F3EF8465C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.BusinessModel", "BusinessProcess\BusinessModel\Kyros.ProductMaster.BusinessModel\Kyros.ProductMaster.BusinessModel.csproj", "{56E073C8-5F01-4EC0-8E7E-1D3084961342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.BusinessLogic", "BusinessProcess\BusinessLogic\Kyros.ProductMaster.BusinessLogic\Kyros.ProductMaster.BusinessLogic.csproj", "{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.WebApi", "Api\Kyros.ProductMaster.WebApi\Kyros.ProductMaster.WebApi.csproj", "{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.UnitTest", "UnitTest\Kyros.ProductMaster.UnitTest\Kyros.ProductMaster.UnitTest.csproj", "{A611142A-0122-44D2-A63C-FE917E5DDAF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E40A9275-BFD5-47CD-B485-594123D9FFC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{2399270C-E523-4D39-AEF4-5E32EFE9DA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.Common", "Common\Kyros.ProductMaster.Common\Kyros.ProductMaster.Common.csproj", "{A21EA015-20F9-4792-8DC0-078CE5D751C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kyros.ProductMaster.Notification", "Notification\Kyros.ProductMaster.Notification\Kyros.ProductMaster.Notification.csproj", "{F32CA014-93BC-447C-9028-D6BDEB9BDFE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC220AC-974A-4A59-9829-CBD3B4B12C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC220AC-974A-4A59-9829-CBD3B4B12C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC220AC-974A-4A59-9829-CBD3B4B12C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC220AC-974A-4A59-9829-CBD3B4B12C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A80809-83F1-403E-843A-3F3EF8465C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A80809-83F1-403E-843A-3F3EF8465C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A80809-83F1-403E-843A-3F3EF8465C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A80809-83F1-403E-843A-3F3EF8465C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E073C8-5F01-4EC0-8E7E-1D3084961342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E073C8-5F01-4EC0-8E7E-1D3084961342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E073C8-5F01-4EC0-8E7E-1D3084961342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E073C8-5F01-4EC0-8E7E-1D3084961342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A611142A-0122-44D2-A63C-FE917E5DDAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A611142A-0122-44D2-A63C-FE917E5DDAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A611142A-0122-44D2-A63C-FE917E5DDAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A611142A-0122-44D2-A63C-FE917E5DDAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21EA015-20F9-4792-8DC0-078CE5D751C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21EA015-20F9-4792-8DC0-078CE5D751C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21EA015-20F9-4792-8DC0-078CE5D751C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21EA015-20F9-4792-8DC0-078CE5D751C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32CA014-93BC-447C-9028-D6BDEB9BDFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32CA014-93BC-447C-9028-D6BDEB9BDFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32CA014-93BC-447C-9028-D6BDEB9BDFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32CA014-93BC-447C-9028-D6BDEB9BDFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{201E4749-CF2C-473D-B169-B3EE5B89FFEC} = {572A0B46-8EDB-4DE2-8DC4-63E41FF01DF1}
+		{AF661CF7-82E6-417A-9C0D-3ED7B27F2137} = {572A0B46-8EDB-4DE2-8DC4-63E41FF01DF1}
+		{4DC220AC-974A-4A59-9829-CBD3B4B12C8B} = {526636AD-C1CC-4968-96E2-A4B4B0845899}
+		{A3A80809-83F1-403E-843A-3F3EF8465C99} = {9D3AE78F-04BA-424D-8E32-01175240ED9F}
+		{56E073C8-5F01-4EC0-8E7E-1D3084961342} = {201E4749-CF2C-473D-B169-B3EE5B89FFEC}
+		{8EAE8CB3-483A-41D7-AD9E-378CDBD50C7D} = {AF661CF7-82E6-417A-9C0D-3ED7B27F2137}
+		{EFC32CD9-CFEB-4CC7-AFB7-89CD0E3F9ACF} = {44FB4F4C-17D4-408D-9CF9-B4A0C37CF14A}
+		{A611142A-0122-44D2-A63C-FE917E5DDAF5} = {7038C663-F8A7-4F47-B1D9-56F9907C3118}
+		{A21EA015-20F9-4792-8DC0-078CE5D751C1} = {E40A9275-BFD5-47CD-B485-594123D9FFC2}
+		{F32CA014-93BC-447C-9028-D6BDEB9BDFE6} = {2399270C-E523-4D39-AEF4-5E32EFE9DA0E}
+	EndGlobalSection
+EndGlobal
